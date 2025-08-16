@@ -1,0 +1,210 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all color="#1b1b1b" font-family="Arial, 'Helvetica Neue', Helvetica, sans-serif" />
+      <mj-class name="product-column" padding="5px 10px" width="33%" />
+      <mj-class name="product-image" width="128px" padding="5px" align="center" />
+      <mj-class name="product-header" font-size="18px" line-height="1.2" align="center" font-weight="400" />
+      <mj-class name="product-description" font-size="14px" align="center" letter-spacing="0px" font-weight="300" padding="4px 0" />
+      <mj-class name="button" line-height="32px" font-size="16px" font-weight="600" align="center" padding="10px" color="#1e3004" background-color="#7da53d" border-radius="4px" />
+      <mj-class name="colors-image" border-radius="10px" padding="4px" height="150px" height="150px" border-color="#f8f9f0" />
+
+      <mj-class name="rrr-header" font-size="32px" font-weight="500" line-height="1.2" padding="10px" css-class="mobile-text-center-desktop-left" />
+      <mj-class name="rrr-text" font-size="16px" font-weight="400" line-height="1.5" align="left" padding-left="10px" />
+      <mj-class name="rrr-image" width="320px" height="auto" />
+    </mj-attributes>
+    <!-- prettier-ignore -->
+    <mj-style>
+        .mobile-text-center-desktop-left div[style] {
+            text-align: center !important; 
+        } 
+        @media (min-width: 480px) {
+            .mobile-text-center-desktop-left div[style] {
+                text-align: left !important; 
+            } 
+        }
+        .word-break-normal div[style] {
+            word-break: normal !important;
+        }
+    </mj-style>
+  </mj-head>
+  <mj-body width="640px">
+    <mj-section full-width background-color="#04160b" background-url="/images/1_bg_matcha.png" background-size="cover">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" align="center" width="416px" src="/images/2_logo_no_bg.png"></mj-image>
+
+        <mj-text padding="10px 10px 20px" font-size="22px" font-weight="400" letter-spacing="0px" line-height="1.5" align="center" color="#ffffff"
+          >Gepatenteerd circulair gevelsysteem van keramische steenstrips bevestigd met RVS clips</mj-text
+        >
+
+        <mj-button href="https://www.r3stone.nl/" mj-class="button">Ontdek Meer</mj-button>
+        <mj-spacer height="25px" />
+      </mj-column>
+    </mj-section>
+    <mj-section full-width padding="30px 0 20px" background-color="#f8f9f0">
+      <mj-column mj-class="product-column">
+        <mj-image src="images/3_steenstrips_icon.png" mj-class="product-image" />
+
+        <mj-text mj-class="product-header">Keramische Steenstrip</mj-text>
+        <mj-text mj-class="product-description" font-style="italic">WF&nbsp; &nbsp;Dikte 20 mm&nbsp; 50x220 mm</mj-text>
+        <mj-text mj-class="product-description" font-style="italic">LF&nbsp; &nbsp; Dikte 20 mm&nbsp; 50x330 mm</mj-text>
+        <mj-text mj-class="product-description" font-style="italic" color="#101112" font-size="10px">(andere maten op aanvraag)</mj-text>
+      </mj-column>
+
+      <mj-column mj-class="product-column">
+        <mj-image src="images/4_rvs_clip.png" mj-class="product-image" />
+
+        <mj-text mj-class="product-header">RVS clip</mj-text>
+        <mj-text mj-class="product-description">Kwaliteit RVS A2</mj-text>
+      </mj-column>
+
+      <mj-column mj-class="product-column">
+        <mj-image src="images/5_schroeven_icon.png" mj-class="product-image" />
+
+        <mj-text mj-class="product-header">RVS Schroeven</mj-text>
+        <mj-text mj-class="product-description">Kwaliteit RVS A2</mj-text>
+      </mj-column>
+
+      <mj-column mj-class="product-column">
+        <mj-image src="images/6_startprofiel.png" mj-class="product-image" />
+
+        <mj-text mj-class="product-header">Geperforeerd Startprofiel</mj-text>
+        <mj-text mj-class="product-description">Gepoedercoat aluminium</mj-text>
+      </mj-column>
+
+      <mj-column mj-class="product-column">
+        <mj-image src="images/7_magoxx_icon.png" mj-class="product-image" />
+        <mj-text mj-class="product-header">Magoxx Board</mj-text>
+        <mj-text mj-class="product-description">Grijs / 12mm / Brandklasse A1</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section full-width background-color="#dde2d3">
+      <mj-column>
+        <mj-spacer height="40px" />
+        <mj-text padding="10px 0" font-size="32px" font-weight="500" line-height="1.2" align="center">Toepassingswijze : R3Stone Systeem</mj-text>
+        <mj-text font-style="italic" padding="5px 0 10px" align="center" font-size="21px" font-weight="300" letter-spacing="0">"Not just another brick in the wall"</mj-text>
+        <mj-image fluid-on-mobile="true" width="360px" align="center" src="images/8_restone_2x_medium.gif" />
+        <mj-button mj-class="button" href="https://www.r3stone.nl/r3stone-systeem/">Volledige Video</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper background-color="#f8f9f0">
+      <mj-section>
+        <mj-column padding="0" width="30%">
+          <mj-text css-class="word-break-normal mobile-text-center-desktop-left" font-weight="500" line-height="1.2" font-size="32px">Vrijheid</mj-text>
+          <mj-text font-weight="300" line-height="1.5" css-class="mobile-text-center-desktop-left" font-size="16px">formaat, kleur, textuur, en verband</mj-text>
+          <mj-button mj-class="button" css-class="mobile-text-center-desktop-left" href="https://www.r3stone.nl/r3stone-systeem/">Bekijk meer</mj-button>
+        </mj-column>
+        <mj-group width="70%">
+          <mj-column padding="10px 0 0" width="33%">
+            <mj-image mj-class="colors-image" src="images/9_colisee.png" />
+          </mj-column>
+          <mj-column padding="10px 0 0" width="33%">
+            <mj-image mj-class="colors-image" src="images/10_single_glazing.png" />
+          </mj-column>
+          <mj-column padding="10px 0 0" width="33%">
+            <mj-image mj-class="colors-image" src="images/11_chrystal.png" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column padding="0" width="30%"> </mj-column>
+        <mj-group width="70%">
+          <mj-column padding="10px 0 0" width="33%">
+            <mj-image mj-class="colors-image" src="images/12_vertical_tile_verb.png" />
+          </mj-column>
+          <mj-column padding="10px 0 0" width="33%">
+            <mj-image mj-class="colors-image" src="images/13_vertical_hs.png" />
+          </mj-column>
+          <mj-column padding="10px 0 0" width="33%">
+            <mj-image mj-class="colors-image" src="images/14_halfsteen_verb.png" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#dde2d3" padding="0 58px">
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="20px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-group>
+          <mj-column vertical-align="middle">
+            <mj-text mj-class="rrr-header"> Reduce </mj-text>
+            <mj-text padding-bottom="16px" mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
+            <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in materiaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
+            <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
+          </mj-column>
+          <mj-column vertical-align="middle" padding="0">
+            <mj-image padding="0" mj-class="rrr-image" src="images/15_reduce__icon.png" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-group>
+          <mj-column vertical-align="middle" padding="0">
+            <mj-image padding="0" mj-class="rrr-image" src="images/16_reuse_icon.png" />
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-text mj-class="rrr-header"> Reuse </mj-text>
+            <mj-text padding-bottom="16px" mj-class="rrr-text"> 100% losmaakbaar </mj-text>
+            <mj-text padding-bottom="16px" mj-class="rrr-text"> Hergebruik zonder enig kwaliteitsverlies </mj-text>
+            <mj-text mj-class="rrr-text">Geen inzet van speciale apparatuur voor montage en/of demontage </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-group>
+          <mj-column vertical-align="middle">
+            <mj-text mj-class="rrr-header"> Recycle </mj-text>
+            <mj-text padding-bottom="16px" mj-class="rrr-text"> Geen voorafgaande scheiding van materialen noodzakelijk </mj-text>
+            <mj-text mj-class="rrr-text">Volledig terug te voeren in productieproces </mj-text>
+          </mj-column>
+          <mj-column vertical-align="middle" padding="0">
+            <mj-image padding="0" mj-class="rrr-image" src="images/17_recycle_icon.png" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#f8f9f0">
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="32px" font-weight="700" line-height="1.2" align="center">Milleu Impact</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-group>
+          <mj-column width="25%" padding="0">
+            <mj-image padding="0" width="56px" align="right" src="images/18_image002.png" />
+          </mj-column>
+          <mj-column width="75%">
+            <mj-text font-size="18px" font-weight="400" line-height="1.2" align="left">CO2 voetafdrukken en losmaakbaarheid</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-image src="images/19_graphic_bar_2.png" />
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="8px" font-weight="400" line-height="1.2" color="#1c1c1c">* de waardes zijn indicatief</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#04160b" background-url="/images/1_bg_matcha.png" background-size="cover">
+      <mj-section padding="30px 0px">
+        <mj-column padding="0">
+          <mj-text color="#ffffff" font-size="32px" font-weight="500" line-height="1.2" align="center">Geinteresseerd?</mj-text>
+          <mj-text color="#ffffff" font-size="14px" font-weight="400" line-height="1.5" align="center">Ontdek meer via de link hieronder of neem contact op </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

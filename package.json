@@ -1,0 +1,16 @@
+{
+  "name": "r3stone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mjml": "mjml index.mjml -o dist.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mjml": "^4.15.3"
+  }
+}
