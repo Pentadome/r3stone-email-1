@@ -162,7 +162,7 @@
             <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in materiaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
             <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
           </mj-column>
-          <mj-column  vertical-align="middle" padding="0">
+          <mj-column vertical-align="middle" padding="0">
             <mj-image padding="0" mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/15_reduce__icon.png" />
           </mj-column>
         </mj-group>
@@ -173,16 +173,16 @@
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Reduce </mj-text>
           </mj-column>
-          <mj-column  vertical-align="middle" padding="0">
+          <mj-column vertical-align="middle" padding="0">
             <mj-image padding="0" mj-class="rrr-image-phone" src="https://pentadome.github.io/r3stone-email-1/images/15_reduce__icon.png" />
           </mj-column>
         </mj-group>
       </mj-section>
       <mj-section css-class="hide-desktop" padding="0">
         <mj-column>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in mataalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
-            <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
+          <mj-text padding-bottom="16px" mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
+          <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in mataalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
+          <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
         </mj-column>
       </mj-section>
 
@@ -206,16 +206,16 @@
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Reuse </mj-text>
           </mj-column>
-          <mj-column  vertical-align="middle" padding="0">
+          <mj-column vertical-align="middle" padding="0">
             <mj-image padding="0" mj-class="rrr-image-phone" src="https://pentadome.github.io/r3stone-email-1/images/16_reuse_icon.png" />
           </mj-column>
         </mj-group>
       </mj-section>
       <mj-section css-class="hide-desktop" padding="0">
         <mj-column>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> 100% losmaakbaar </mj-text>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> Hergebruik zonder enig kwaliteitsverlies </mj-text>
-            <mj-text mj-class="rrr-text"> Geen inzet van speciale apparatuur voor montage en/of demontage </mj-text>
+          <mj-text padding-bottom="16px" mj-class="rrr-text"> 100% losmaakbaar </mj-text>
+          <mj-text padding-bottom="16px" mj-class="rrr-text"> Hergebruik zonder enig kwaliteitsverlies </mj-text>
+          <mj-text mj-class="rrr-text"> Geen inzet van speciale apparatuur voor montage en/of demontage </mj-text>
         </mj-column>
       </mj-section>
 
@@ -233,25 +233,29 @@
         </mj-group>
       </mj-section>
 
-          <mj-section css-class="hide-desktop" padding="0">
+      <mj-section css-class="hide-desktop" padding="0">
         <mj-group>
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Recycle </mj-text>
           </mj-column>
-          <mj-column  vertical-align="middle" padding="0">
+          <mj-column vertical-align="middle" padding="0">
             <mj-image padding="0" mj-class="rrr-image-phone" src="https://pentadome.github.io/r3stone-email-1/images/17_recycle_icon.png" />
           </mj-column>
         </mj-group>
       </mj-section>
       <mj-section css-class="hide-desktop" padding="0">
         <mj-column>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> Geen voorafgaande scheiding van materialen noodzakelijk </mj-text>
-            <mj-text mj-class="rrr-text"> Volledig terug te voeren in productieproces  </mj-text>
+          <mj-text padding-bottom="16px" mj-class="rrr-text"> Geen voorafgaande scheiding van materialen noodzakelijk </mj-text>
+          <mj-text mj-class="rrr-text"> Volledig terug te voeren in productieproces </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="20px" />
         </mj-column>
       </mj-section>
     </mj-wrapper>
-
-
 
     <mj-wrapper full-width="full-width" background-color="#f8f9f0">
       <mj-section>
@@ -290,10 +294,14 @@
       <mj-section padding="0">
         <mj-column vertical-align="middle">
           <mj-text color="#ffffff" font-size="14px" font-weight="400" line-height="1.5" align="left">Ontdek meer via de link hieronder of neem contact op </mj-text>
-           <mj-button css-class="link-no-padding-y" padding="0" color="#ffffff" background-color="#00000000" font-size="14px" font-weight="400" line-height="1.5" align="left" href="https://www.r3stone.nl/r3stone-systeem/">www.R3Stone.nl</mj-button>
+          <mj-button css-class="link-no-padding-y" padding="0" color="#ffffff" background-color="#00000000" font-size="14px" font-weight="400" line-height="1.5" align="left" href="https://www.r3stone.nl/r3stone-systeem/"
+            >www.R3Stone.nl</mj-button
+          >
         </mj-column>
         <mj-column vertical-align="middle">
-          <mj-button css-class="link-no-padding-y" padding="0" color="#ffffff" background-color="#00000000" font-size="14px" font-weight="400" line-height="1.5" align="left" href="mailto:info@R3Stone.nl">mail ons: info@R3Stone.nl</mj-button>
+          <mj-button css-class="link-no-padding-y" padding="0" color="#ffffff" background-color="#00000000" font-size="14px" font-weight="400" line-height="1.5" align="left" href="mailto:info@R3Stone.nl"
+            >mail ons: info@R3Stone.nl</mj-button
+          >
           <mj-button css-class="link-no-padding-y" padding="0" color="#ffffff" background-color="#00000000" font-size="14px" font-weight="400" line-height="1.5" align="left" href="tel:+310186229351">bel ons: 0186-229 351</mj-button>
         </mj-column>
       </mj-section>
