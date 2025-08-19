@@ -32,9 +32,9 @@
     </mj-style>
   </mj-head>
   <mj-body width="640px">
-    <mj-section full-width="full-width" background-color="#04160b" background-url="/images/1_bg_matcha.png" background-size="cover">
+    <mj-section full-width="full-width" background-color="#04160b" background-url="https://pentadome.github.io/r3stone-email-1/images/1_bg_matcha.png" background-size="cover">
       <mj-column>
-        <mj-image fluid-on-mobile="true" align="center" width="416px" src="/images/2_logo_no_bg.png"></mj-image>
+        <mj-image fluid-on-mobile="true" align="center" width="416px" src="https://pentadome.github.io/r3stone-email-1/images/2_logo_no_bg.png"></mj-image>
 
         <mj-text padding="10px 10px 20px" font-size="22px" font-weight="400" letter-spacing="0px" line-height="1.5" align="center" color="#ffffff"
           >Gepatenteerd circulair gevelsysteem van keramische steenstrips bevestigd met RVS clips</mj-text
@@ -46,7 +46,7 @@
     </mj-section>
     <mj-section full-width="full-width" padding="30px 0 20px" background-color="#f8f9f0">
       <mj-column mj-class="product-column">
-        <mj-image src="images/3_steenstrips_icon.png" mj-class="product-image" />
+        <mj-image src="https://pentadome.github.io/r3stone-email-1/images/3_steenstrips_icon.png" mj-class="product-image" />
 
         <mj-text mj-class="product-header">Keramische Steenstrip</mj-text>
         <mj-text mj-class="product-description" font-style="italic">WF&nbsp; &nbsp;Dikte 20 mm&nbsp; 50x220 mm</mj-text>
@@ -55,28 +55,28 @@
       </mj-column>
 
       <mj-column mj-class="product-column">
-        <mj-image src="images/4_rvs_clip.png" mj-class="product-image" />
+        <mj-image src="https://pentadome.github.io/r3stone-email-1/images/4_rvs_clip.png" mj-class="product-image" />
 
         <mj-text mj-class="product-header">RVS clip</mj-text>
         <mj-text mj-class="product-description">Kwaliteit RVS A2</mj-text>
       </mj-column>
 
       <mj-column mj-class="product-column">
-        <mj-image src="images/5_schroeven_icon.png" mj-class="product-image" />
+        <mj-image src="https://pentadome.github.io/r3stone-email-1/images/5_schroeven_icon.png" mj-class="product-image" />
 
         <mj-text mj-class="product-header">RVS Schroeven</mj-text>
         <mj-text mj-class="product-description">Kwaliteit RVS A2</mj-text>
       </mj-column>
 
       <mj-column mj-class="product-column">
-        <mj-image src="images/6_startprofiel.png" mj-class="product-image" />
+        <mj-image src="https://pentadome.github.io/r3stone-email-1/images/6_startprofiel.png" mj-class="product-image" />
 
         <mj-text mj-class="product-header">Geperforeerd Startprofiel</mj-text>
         <mj-text mj-class="product-description">Gepoedercoat aluminium</mj-text>
       </mj-column>
 
       <mj-column mj-class="product-column">
-        <mj-image src="images/7_magoxx_icon.png" mj-class="product-image" />
+        <mj-image src="https://pentadome.github.io/r3stone-email-1/images/7_magoxx_icon.png" mj-class="product-image" />
         <mj-text mj-class="product-header">Magoxx Board</mj-text>
         <mj-text mj-class="product-description">Grijs / 12mm / Brandklasse A1</mj-text>
       </mj-column>
@@ -86,7 +86,7 @@
         <mj-spacer height="40px" />
         <mj-text padding="10px 0" font-size="32px" font-weight="500" line-height="1.2" align="center">Toepassingswijze : R3Stone Systeem</mj-text>
         <mj-text font-style="italic" padding="5px 0 10px" align="center" font-size="21px" font-weight="300" letter-spacing="0">"Not just another brick in the wall"</mj-text>
-        <mj-image fluid-on-mobile="true" width="360px" align="center" src="images/8_restone_2x_medium.gif" />
+        <mj-image fluid-on-mobile="true" width="360px" align="center" src="https://pentadome.github.io/r3stone-email-1/images/8_restone_2x_medium.gif" />
         <mj-button mj-class="button" href="https://www.r3stone.nl/r3stone-systeem/">Volledige Video</mj-button>
       </mj-column>
     </mj-section>
@@ -100,13 +100,13 @@
         </mj-column>
         <mj-group width="70%">
           <mj-column padding="10px 0 0" width="33%">
-            <mj-image mj-class="colors-image" src="images/9_colisee.png" />
+            <mj-image mj-class="colors-image" src="https://pentadome.github.io/r3stone-email-1/images/9_colisee.png" />
           </mj-column>
           <mj-column padding="10px 0 0" width="33%">
-            <mj-image mj-class="colors-image" src="images/10_single_glazing.png" />
+            <mj-image mj-class="colors-image" src="https://pentadome.github.io/r3stone-email-1/images/10_single_glazing.png" />
           </mj-column>
           <mj-column padding="10px 0 0" width="33%">
-            <mj-image mj-class="colors-image" src="images/11_chrystal.png" />
+            <mj-image mj-class="colors-image" src="https://pentadome.github.io/r3stone-email-1/images/11_chrystal.png" />
           </mj-column>
         </mj-group>
       </mj-section>
@@ -114,13 +114,13 @@
         <mj-column padding="0" width="30%"> </mj-column>
         <mj-group width="70%">
           <mj-column padding="10px 0 0" width="33%">
-            <mj-image mj-class="colors-image" src="images/12_vertical_tile_verb.png" />
+            <mj-image mj-class="colors-image" src="https://pentadome.github.io/r3stone-email-1/images/12_vertical_tile_verb.png" />
           </mj-column>
           <mj-column padding="10px 0 0" width="33%">
-            <mj-image mj-class="colors-image" src="images/13_vertical_hs.png" />
+            <mj-image mj-class="colors-image" src="https://pentadome.github.io/r3stone-email-1/images/13_vertical_hs.png" />
           </mj-column>
           <mj-column padding="10px 0 0" width="33%">
-            <mj-image mj-class="colors-image" src="images/14_halfsteen_verb.png" />
+            <mj-image mj-class="colors-image" src="https://pentadome.github.io/r3stone-email-1/images/14_halfsteen_verb.png" />
           </mj-column>
         </mj-group>
       </mj-section>
@@ -142,14 +142,14 @@
             <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
           </mj-column>
           <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image" src="images/15_reduce__icon.png" />
+            <mj-image padding="0" mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/15_reduce__icon.png" />
           </mj-column>
         </mj-group>
       </mj-section>
       <mj-section>
         <mj-group>
           <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image" src="images/16_reuse_icon.png" />
+            <mj-image padding="0" mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/16_reuse_icon.png" />
           </mj-column>
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Reuse </mj-text>
@@ -167,7 +167,7 @@
             <mj-text mj-class="rrr-text">Volledig terug te voeren in productieproces </mj-text>
           </mj-column>
           <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image" src="images/17_recycle_icon.png" />
+            <mj-image padding="0" mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/17_recycle_icon.png" />
           </mj-column>
         </mj-group>
       </mj-section>
@@ -182,7 +182,7 @@
       <mj-section>
         <mj-group>
           <mj-column width="25%" padding="0">
-            <mj-image padding="0" width="56px" align="right" src="images/18_image002.png" />
+            <mj-image padding="0" width="56px" align="right" src="https://pentadome.github.io/r3stone-email-1/images/18_image002.png" />
           </mj-column>
           <mj-column width="75%">
             <mj-text font-size="18px" font-weight="400" line-height="1.2" align="left">CO2 voetafdrukken en losmaakbaarheid</mj-text>
@@ -191,7 +191,7 @@
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-image src="images/19_graphic_bar_2.png" />
+          <mj-image src="https://pentadome.github.io/r3stone-email-1/images/19_graphic_bar_2.png" />
         </mj-column>
       </mj-section>
       <mj-section>
@@ -201,7 +201,7 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper full-width="full-width" background-color="#04160b" background-url="/images/1_bg_matcha.png" background-size="cover">
+    <mj-wrapper full-width="full-width" background-color="#04160b" background-url="https://pentadome.github.io/r3stone-email-1/images/1_bg_matcha.png" background-size="cover">
       <mj-section padding="30px 0 0 0">
         <mj-column padding="0">
           <mj-text color="#ffffff" font-size="32px" font-weight="500" line-height="1.2" align="left">Geinteresseerd?</mj-text>
@@ -219,12 +219,12 @@
       <mj-section padding="0">
         <mj-column >
           <mj-social align="left" font-size="15px" color="#ffffff" icon-size="30px" mode="horizontal">
-          <mj-social-element src="images/20_linkedin2x.png" href="https://www.linkedin.com/company/r3stone/">
+          <mj-social-element src="https://pentadome.github.io/r3stone-email-1/images/20_linkedin2x.png" href="https://www.linkedin.com/company/r3stone/">
             
           </mj-social-element>
-          <mj-social-element src="images/21_website2x.png" href="https://www.r3stone.nl/">
+          <mj-social-element src="https://pentadome.github.io/r3stone-email-1/images/21_website2x.png" href="https://www.r3stone.nl/">
           </mj-social-element>
-          <mj-social-element src="images/22_mail2x.png"  href="https://mjml.io/">
+          <mj-social-element src="https://pentadome.github.io/r3stone-email-1/images/22_mail2x.png"  href="https://mjml.io/">
           </mj-social-element>
         </mj-social>
         </mj-column>
