@@ -159,7 +159,7 @@
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Reduce </mj-text>
             <mj-text padding-bottom="16px" mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in materiaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
+            <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in metaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
             <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
           </mj-column>
           <mj-column vertical-align="middle" padding="0">
@@ -181,7 +181,7 @@
       <mj-section css-class="hide-desktop" padding="0">
         <mj-column>
           <mj-text padding-bottom="16px" mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
-          <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in mataalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
+          <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in metaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
           <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
         </mj-column>
       </mj-section>
