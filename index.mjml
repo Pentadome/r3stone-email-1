@@ -26,10 +26,13 @@
         .word-break-normal div[style] {
             word-break: normal !important;
         }
+        .link-no-padding a[style] {
+          padding: 0 !important;
+        }
     </mj-style>
   </mj-head>
   <mj-body width="640px">
-    <mj-section full-width background-color="#04160b" background-url="/images/1_bg_matcha.png" background-size="cover">
+    <mj-section full-width="full-width" background-color="#04160b" background-url="/images/1_bg_matcha.png" background-size="cover">
       <mj-column>
         <mj-image fluid-on-mobile="true" align="center" width="416px" src="/images/2_logo_no_bg.png"></mj-image>
 
@@ -41,7 +44,7 @@
         <mj-spacer height="25px" />
       </mj-column>
     </mj-section>
-    <mj-section full-width padding="30px 0 20px" background-color="#f8f9f0">
+    <mj-section full-width="full-width" padding="30px 0 20px" background-color="#f8f9f0">
       <mj-column mj-class="product-column">
         <mj-image src="images/3_steenstrips_icon.png" mj-class="product-image" />
 
@@ -78,7 +81,7 @@
         <mj-text mj-class="product-description">Grijs / 12mm / Brandklasse A1</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section full-width background-color="#dde2d3">
+    <mj-section full-width="full-width" background-color="#dde2d3">
       <mj-column>
         <mj-spacer height="40px" />
         <mj-text padding="10px 0" font-size="32px" font-weight="500" line-height="1.2" align="center">Toepassingswijze : R3Stone Systeem</mj-text>
@@ -88,7 +91,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-wrapper background-color="#f8f9f0">
+    <mj-wrapper full-width="full-width" background-color="#f8f9f0">
       <mj-section>
         <mj-column padding="0" width="30%">
           <mj-text css-class="word-break-normal mobile-text-center-desktop-left" font-weight="500" line-height="1.2" font-size="32px">Vrijheid</mj-text>
@@ -123,7 +126,7 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper background-color="#dde2d3" padding="0 58px">
+    <mj-wrapper full-width="full-width" background-color="#dde2d3" padding="0 58px">
       <mj-section>
         <mj-column>
           <mj-spacer height="20px" />
@@ -170,7 +173,7 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper background-color="#f8f9f0">
+    <mj-wrapper full-width="full-width" background-color="#f8f9f0">
       <mj-section>
         <mj-column>
           <mj-text font-size="32px" font-weight="700" line-height="1.2" align="center">Milleu Impact</mj-text>
@@ -198,11 +201,32 @@
       </mj-section>
     </mj-wrapper>
 
-    <mj-wrapper background-color="#04160b" background-url="/images/1_bg_matcha.png" background-size="cover">
-      <mj-section padding="30px 0px">
+    <mj-wrapper full-width="full-width" background-color="#04160b" background-url="/images/1_bg_matcha.png" background-size="cover">
+      <mj-section padding="30px 0 0 0">
         <mj-column padding="0">
-          <mj-text color="#ffffff" font-size="32px" font-weight="500" line-height="1.2" align="center">Geinteresseerd?</mj-text>
-          <mj-text color="#ffffff" font-size="14px" font-weight="400" line-height="1.5" align="center">Ontdek meer via de link hieronder of neem contact op </mj-text>
+          <mj-text color="#ffffff" font-size="32px" font-weight="500" line-height="1.2" align="left">Geinteresseerd?</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column vertical-align="middle"> 
+<mj-text color="#ffffff" font-size="14px" font-weight="400" line-height="1.5" align="left">Ontdek meer via de link hieronder of neem contact op </mj-text>
+        </mj-column>
+            <mj-column vertical-align="middle"> 
+<mj-button css-class="link-no-padding" padding="0" color="#ffffff" background-color="#00000000" font-size="14px" font-weight="400" line-height="1.5" align="left" href="mailto:info@R3Stone.nl">mail ons: info@R3Stone.nl</mj-button>
+<mj-button css-class="link-no-padding" padding="0" color="#ffffff" background-color="#00000000" font-size="14px" font-weight="400" line-height="1.5" align="left" href="tel:+310186229351">bel ons: 0186-229 351</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column >
+          <mj-social align="left" font-size="15px" color="#ffffff" icon-size="30px" mode="horizontal">
+          <mj-social-element src="images/20_linkedin2x.png" href="https://www.linkedin.com/company/r3stone/">
+            
+          </mj-social-element>
+          <mj-social-element src="images/21_website2x.png" href="https://www.r3stone.nl/">
+          </mj-social-element>
+          <mj-social-element src="images/22_mail2x.png"  href="https://mjml.io/">
+          </mj-social-element>
+        </mj-social>
         </mj-column>
       </mj-section>
     </mj-wrapper>
