@@ -36,7 +36,7 @@ jobs:
       - name: install dependencies
         run: npm ci
       - name: build
-        run: npm run mjml
+        run: npm run publish
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
