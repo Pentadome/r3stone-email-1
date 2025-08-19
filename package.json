@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mjml": "mjml index.mjml -o dist.html"
+    "mjml": "mjml index.mjml -o index.html",
+    "publish": "node publish.mjs"
   },
   "keywords": [],
   "author": "",
