@@ -260,7 +260,7 @@
         <mj-column>
           <mj-social align="left" font-size="15px" color="#ffffff" icon-size="30px" mode="horizontal">
             <mj-social-element src="https://pentadome.github.io/r3stone-email-1/images/20_linkedin2x.png" href="https://www.linkedin.com/company/r3stone/"> </mj-social-element>
-            <mj-social-element src="https://pentadome.github.io/r3stone-email-1/images/22_mail2x.png" href="https://mjml.io/"> </mj-social-element>
+            <mj-social-element src="https://pentadome.github.io/r3stone-email-1/images/22_mail2x.png" href="mailto:info@R3Stone.nl"> </mj-social-element>
           </mj-social>
         </mj-column>
       </mj-section>
