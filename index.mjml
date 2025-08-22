@@ -9,11 +9,13 @@
       <mj-class name="button" line-height="32px" font-size="16px" font-weight="600" align="center" padding="10px" color="#1e3004" background-color="#7da53d" border-radius="4px" />
       <mj-class name="colors-image" border-radius="10px" padding="4px" height="150px" height="150px" border-color="#f8f9f0" />
 
+      <mj-class name="rrr-header-section" padding="12px 0 0 0" />
       <mj-class name="rrr-header" font-size="32px" font-weight="500" line-height="1.2" padding="0 10px" css-class="mobile-text-center-desktop-left" />
-      <mj-class name="rrr-text" font-size="16px" font-weight="400" line-height="1.5" align="left" padding-left="10px" />
-      <mj-class name="rrr-image" width="320px" height="auto" />
-      <mj-class name="rrr-image-phone" width="80px" align="left" height="auto" />
+      <mj-class name="rrr-text" font-size="16px" padding-bottom="2px" padding-top="2px" font-weight="400" line-height="1.5" align="left" padding-left="10px" />
+      <mj-class name="rrr-header-image-col" width="82px"/>
+      <mj-class name="rrr-image" padding="0" width="80px" align="left" height="auto" />
     </mj-attributes>
+    <mj-breakpoint width="480px"/>
     <!-- prettier-ignore -->
     <mj-style>
         .mobile-text-center-desktop-left div[style] {
@@ -30,25 +32,6 @@
         .link-no-padding-y a[style] {
           padding-top: 0 !important;
           padding-bottom: 0 !important;
-        }
-        .hide-desktop div[style] {
-          display: inline-block !important;
-        }
-
-        @media (min-width: 480px) {
-            .hide-desktop div[style] {
-                display: none !important;
-            } 
-        }
-
-        div[style].hide-mobile {
-          display: none !important;
-        }
-
-        @media (min-width: 480px) {
-            div[style].hide-mobile {
-                display: inline-block !important;
-            } 
         }
     </mj-style>
   </mj-head>
@@ -150,102 +133,67 @@
     <mj-wrapper full-width="full-width" background-color="#dde2d3" padding="0 58px">
       <mj-section>
         <mj-column>
-          <mj-spacer height="20px" />
+          <mj-spacer height="8px" />
         </mj-column>
       </mj-section>
       <!-- REDUCE -->
-      <mj-section>
-        <mj-group css-class="hide-mobile">
-          <mj-column vertical-align="middle">
-            <mj-text mj-class="rrr-header"> Reduce </mj-text>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in metaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
-            <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
-          </mj-column>
-          <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/15_reduce__icon.png" />
-          </mj-column>
-        </mj-group>
-      </mj-section>
 
-      <mj-section css-class="hide-desktop" padding="0">
+      <mj-section mj-class="rrr-header-section">
         <mj-group>
+                  <mj-column mj-class="rrr-header-image-col" vertical-align="middle">
+            <mj-image mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/15_reduce__icon.png" />
+          </mj-column>
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Reduce </mj-text>
           </mj-column>
-          <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image-phone" src="https://pentadome.github.io/r3stone-email-1/images/15_reduce__icon.png" />
-          </mj-column>
+
         </mj-group>
       </mj-section>
-      <mj-section css-class="hide-desktop" padding="0">
+      <mj-section padding="0">
         <mj-column>
-          <mj-text padding-bottom="16px" mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
-          <mj-text padding-bottom="16px" mj-class="rrr-text"> Tot 80% reductie in metaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
+          <mj-text  mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
+          <mj-text  mj-class="rrr-text"> Tot 80% reductie in metaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
           <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
         </mj-column>
       </mj-section>
 
       <!-- REUSE -->
-      <mj-section>
-        <mj-group css-class="hide-mobile">
-          <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/16_reuse_icon.png" />
-          </mj-column>
-          <mj-column vertical-align="middle">
-            <mj-text mj-class="rrr-header"> Reuse </mj-text>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> 100% losmaakbaar </mj-text>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> Hergebruik zonder enig kwaliteitsverlies </mj-text>
-            <mj-text mj-class="rrr-text">Geen inzet van speciale apparatuur voor montage en/of demontage </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
 
-      <mj-section css-class="hide-desktop" padding="0">
+
+      <mj-section mj-class="rrr-header-section">
         <mj-group>
+                  <mj-column mj-class="rrr-header-image-col" vertical-align="middle">
+            <mj-image mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/16_reuse_icon.png" />
+          </mj-column>
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Reuse </mj-text>
           </mj-column>
-          <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image-phone" src="https://pentadome.github.io/r3stone-email-1/images/16_reuse_icon.png" />
-          </mj-column>
+
         </mj-group>
       </mj-section>
-      <mj-section css-class="hide-desktop" padding="0">
+      <mj-section padding="0">
         <mj-column>
-          <mj-text padding-bottom="16px" mj-class="rrr-text"> 100% losmaakbaar </mj-text>
-          <mj-text padding-bottom="16px" mj-class="rrr-text"> Hergebruik zonder enig kwaliteitsverlies </mj-text>
+          <mj-text  mj-class="rrr-text"> 100% losmaakbaar </mj-text>
+          <mj-text  mj-class="rrr-text"> Hergebruik zonder enig kwaliteitsverlies </mj-text>
           <mj-text mj-class="rrr-text"> Geen inzet van speciale apparatuur voor montage en/of demontage </mj-text>
         </mj-column>
       </mj-section>
 
       <!-- RECYCLE -->
-      <mj-section css-class="hide-mobile">
-        <mj-group>
-          <mj-column vertical-align="middle">
-            <mj-text mj-class="rrr-header"> Recycle </mj-text>
-            <mj-text padding-bottom="16px" mj-class="rrr-text"> Geen voorafgaande scheiding van materialen noodzakelijk </mj-text>
-            <mj-text mj-class="rrr-text">Volledig terug te voeren in productieproces </mj-text>
-          </mj-column>
-          <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/17_recycle_icon.png" />
-          </mj-column>
-        </mj-group>
-      </mj-section>
 
-      <mj-section css-class="hide-desktop" padding="0">
+      <mj-section mj-class="rrr-header-section">
         <mj-group>
+          <mj-column mj-class="rrr-header-image-col" vertical-align="middle">
+            <mj-image mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/17_recycle_icon.png" />
+          </mj-column>
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Recycle </mj-text>
           </mj-column>
-          <mj-column vertical-align="middle" padding="0">
-            <mj-image padding="0" mj-class="rrr-image-phone" src="https://pentadome.github.io/r3stone-email-1/images/17_recycle_icon.png" />
-          </mj-column>
         </mj-group>
       </mj-section>
-      <mj-section css-class="hide-desktop" padding="0">
+      <mj-section padding="0">
         <mj-column>
-          <mj-text padding-bottom="16px" mj-class="rrr-text"> Geen voorafgaande scheiding van materialen noodzakelijk </mj-text>
+          <mj-text  mj-class="rrr-text"> Geen voorafgaande scheiding van materialen noodzakelijk </mj-text>
           <mj-text mj-class="rrr-text"> Volledig terug te voeren in productieproces </mj-text>
         </mj-column>
       </mj-section>
@@ -265,17 +213,20 @@
       </mj-section>
       <mj-section>
         <mj-group>
-          <mj-column width="25%" padding="0">
-            <mj-image padding="0" width="56px" align="right" src="https://pentadome.github.io/r3stone-email-1/images/18_image002.png" />
+          <mj-column width="10%" vertical-align="middle" padding="0">
           </mj-column>
-          <mj-column width="75%">
+          <mj-column width="10%"  vertical-align="middle" padding="0">
+            <mj-image padding="0" align="right" src="https://pentadome.github.io/r3stone-email-1/images/18_image002.png" />
+          </mj-column>
+          <mj-column width="70%"  vertical-align="middle" padding="0">
             <mj-text font-size="18px" font-weight="400" line-height="1.2" align="left">CO2 voetafdrukken en losmaakbaarheid</mj-text>
           </mj-column>
+          <mj-column  vertical-align="middle" width="10%" padding="0">
         </mj-group>
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-image src="https://pentadome.github.io/r3stone-email-1/images/19_graphic_bar_2.png" />
+          <mj-image src="https://pentadome.github.io/r3stone-email-1/images/20_vbar.png" />
         </mj-column>
       </mj-section>
       <mj-section>
