@@ -10,22 +10,14 @@
       <mj-class name="colors-image" border-radius="10px" padding="4px" height="150px" height="150px" border-color="#f8f9f0" />
 
       <mj-class name="rrr-header-section" padding="12px 0 0 0" />
-      <mj-class name="rrr-header" font-size="32px" font-weight="500" line-height="1.2" padding="0 10px" css-class="mobile-text-center-desktop-left" />
+      <mj-class name="rrr-header" font-size="32px" font-weight="500" line-height="1.2" padding="0 10px" css-class="" />
       <mj-class name="rrr-text" font-size="16px" padding-bottom="2px" padding-top="2px" font-weight="400" line-height="1.5" align="left" padding-left="10px" />
-      <mj-class name="rrr-header-image-col" width="82px"/>
+      <mj-class name="rrr-header-image-col" width="82px" />
       <mj-class name="rrr-image" padding="0" width="80px" align="left" height="auto" />
     </mj-attributes>
-    <mj-breakpoint width="480px"/>
+    <mj-breakpoint width="480px" />
     <!-- prettier-ignore -->
     <mj-style>
-        .mobile-text-center-desktop-left div[style] {
-            text-align: center !important; 
-        } 
-        @media (min-width: 480px) {
-            .mobile-text-center-desktop-left div[style] {
-                text-align: left !important; 
-            } 
-        }
         .word-break-normal div[style] {
             word-break: normal !important;
         }
@@ -97,12 +89,14 @@
 
     <mj-wrapper full-width="full-width" background-color="#f8f9f0">
       <mj-section>
-        <mj-column padding="0" width="30%">
-          <mj-text css-class="word-break-normal mobile-text-center-desktop-left" font-weight="500" line-height="1.2" font-size="32px">Vrijheid</mj-text>
-          <mj-text font-weight="300" line-height="1.5" css-class="mobile-text-center-desktop-left" font-size="16px">formaat, kleur, textuur, en verband</mj-text>
-          <mj-button mj-class="button" css-class="mobile-text-center-desktop-left" href="https://www.r3stone.nl/r3stone-systeem/">Bekijk meer</mj-button>
+        <mj-column padding="0">
+          <mj-text font-weight="500" line-height="1.2" align="center" font-size="32px">Vrijheid</mj-text>
+          <mj-text font-weight="300" line-height="1.5"  align="center"  font-size="16px">formaat, kleur, textuur, en verband</mj-text>
+          <mj-button mj-class="button"  align="center"  href="https://www.r3stone.nl/r3stone-systeem/">Bekijk meer</mj-button>
         </mj-column>
-        <mj-group width="70%">
+      </mj-section>
+      <mj-section>
+        <mj-group>
           <mj-column padding="10px 0 0" width="33%">
             <mj-image mj-class="colors-image" src="https://pentadome.github.io/r3stone-email-1/images/9_colisee.png" />
           </mj-column>
@@ -115,8 +109,7 @@
         </mj-group>
       </mj-section>
       <mj-section>
-        <mj-column padding="0" width="30%"> </mj-column>
-        <mj-group width="70%">
+        <mj-group>
           <mj-column padding="10px 0 0" width="33%">
             <mj-image mj-class="colors-image" src="https://pentadome.github.io/r3stone-email-1/images/12_vertical_tile_verb.png" />
           </mj-column>
@@ -140,41 +133,38 @@
 
       <mj-section mj-class="rrr-header-section">
         <mj-group>
-                  <mj-column mj-class="rrr-header-image-col" vertical-align="middle">
+          <mj-column mj-class="rrr-header-image-col" vertical-align="middle">
             <mj-image mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/15_reduce__icon.png" />
           </mj-column>
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Reduce </mj-text>
           </mj-column>
-
         </mj-group>
       </mj-section>
       <mj-section padding="0">
         <mj-column>
-          <mj-text  mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
-          <mj-text  mj-class="rrr-text"> Tot 80% reductie in metaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
+          <mj-text mj-class="rrr-text"> 80% materiaalreductie t.o.v baksteen </mj-text>
+          <mj-text mj-class="rrr-text"> Tot 80% reductie in metaalgebruik en grote reductie in transportvolume t.o.v andere mechanische bevestigingssystemen </mj-text>
           <mj-text mj-class="rrr-text"> Minimaal restmaterialen </mj-text>
         </mj-column>
       </mj-section>
 
       <!-- REUSE -->
 
-
       <mj-section mj-class="rrr-header-section">
         <mj-group>
-                  <mj-column mj-class="rrr-header-image-col" vertical-align="middle">
+          <mj-column mj-class="rrr-header-image-col" vertical-align="middle">
             <mj-image mj-class="rrr-image" src="https://pentadome.github.io/r3stone-email-1/images/16_reuse_icon.png" />
           </mj-column>
           <mj-column vertical-align="middle">
             <mj-text mj-class="rrr-header"> Reuse </mj-text>
           </mj-column>
-
         </mj-group>
       </mj-section>
       <mj-section padding="0">
         <mj-column>
-          <mj-text  mj-class="rrr-text"> 100% losmaakbaar </mj-text>
-          <mj-text  mj-class="rrr-text"> Hergebruik zonder enig kwaliteitsverlies </mj-text>
+          <mj-text mj-class="rrr-text"> 100% losmaakbaar </mj-text>
+          <mj-text mj-class="rrr-text"> Hergebruik zonder enig kwaliteitsverlies </mj-text>
           <mj-text mj-class="rrr-text"> Geen inzet van speciale apparatuur voor montage en/of demontage </mj-text>
         </mj-column>
       </mj-section>
@@ -193,7 +183,7 @@
       </mj-section>
       <mj-section padding="0">
         <mj-column>
-          <mj-text  mj-class="rrr-text"> Geen voorafgaande scheiding van materialen noodzakelijk </mj-text>
+          <mj-text mj-class="rrr-text"> Geen voorafgaande scheiding van materialen noodzakelijk </mj-text>
           <mj-text mj-class="rrr-text"> Volledig terug te voeren in productieproces </mj-text>
         </mj-column>
       </mj-section>
@@ -213,15 +203,14 @@
       </mj-section>
       <mj-section>
         <mj-group>
+          <mj-column width="10%" vertical-align="middle" padding="0"> </mj-column>
           <mj-column width="10%" vertical-align="middle" padding="0">
-          </mj-column>
-          <mj-column width="10%"  vertical-align="middle" padding="0">
             <mj-image padding="0" align="right" src="https://pentadome.github.io/r3stone-email-1/images/18_image002.png" />
           </mj-column>
-          <mj-column width="70%"  vertical-align="middle" padding="0">
+          <mj-column width="70%" vertical-align="middle" padding="0">
             <mj-text font-size="18px" font-weight="400" line-height="1.2" align="left">CO2 voetafdrukken en losmaakbaarheid</mj-text>
           </mj-column>
-          <mj-column  vertical-align="middle" width="10%" padding="0">
+          <mj-column vertical-align="middle" width="10%" padding="0"> </mj-column>
         </mj-group>
       </mj-section>
       <mj-section>
