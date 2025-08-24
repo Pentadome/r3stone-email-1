@@ -28,11 +28,11 @@
     </mj-style>
   </mj-head>
   <mj-body width="640px">
-  <mj-section padding="0">
-  <mj-column padding="0">
-    <mj-button background-color="#ffffff" font-size="8px" href="https://pentadome.github.io/r3stone-email-1/"  css-class="link-no-padding-y">(Klik hier om de webversie van deze email te bekijken)</mj-button>
-  </mj-column>
-  </mj-section>
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-button background-color="#ffffff" padding="4px 0" font-size="8px" href="https://pentadome.github.io/r3stone-email-1/" css-class="link-no-padding-y">(Klik hier om de webversie van deze email te bekijken)</mj-button>
+      </mj-column>
+    </mj-section>
     <mj-section full-width="full-width" background-color="#04160b" background-url="https://pentadome.github.io/r3stone-email-1/images/1_bg_matcha.png" background-size="cover">
       <mj-column>
         <mj-image fluid-on-mobile="true" align="center" width="416px" src="https://pentadome.github.io/r3stone-email-1/images/2_logo_no_bg.png"></mj-image>
@@ -96,8 +96,8 @@
       <mj-section>
         <mj-column padding="0">
           <mj-text font-weight="500" line-height="1.2" align="center" font-size="32px">Vrijheid</mj-text>
-          <mj-text font-weight="300" line-height="1.5"  align="center"  font-size="16px">formaat, kleur, textuur, en verband</mj-text>
-          <mj-button mj-class="button"  align="center"  href="https://www.r3stone.nl/r3stone-systeem/">Bekijk meer</mj-button>
+          <mj-text font-weight="300" line-height="1.5" align="center" font-size="16px">formaat, kleur, textuur, en verband</mj-text>
+          <mj-button mj-class="button" align="center" href="https://www.r3stone.nl/r3stone-systeem/">Bekijk meer</mj-button>
         </mj-column>
       </mj-section>
       <mj-section>
