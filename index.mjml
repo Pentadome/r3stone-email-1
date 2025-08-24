@@ -233,7 +233,7 @@
     <mj-wrapper full-width="full-width" background-color="#04160b" background-url="https://pentadome.github.io/r3stone-email-1/images/1_bg_matcha.png" background-size="cover">
       <mj-section padding="30px 0 0 0">
         <mj-column padding="0">
-          <mj-text color="#ffffff" font-size="32px" font-weight="500" line-height="1.2" align="left">Geinteresseerd?</mj-text>
+          <mj-text color="#ffffff" font-size="32px" font-weight="500" line-height="1.2" align="left">Geïnteresseerd?</mj-text>
         </mj-column>
       </mj-section>
       <mj-section padding="0">
